@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#count section{
+    background-color: #F9F7E9;
+    padding-bottom: 30px;
+}
+#count section container{
+    position: relative;
+}
+.count-row{
+    box-shadow: #CCDDD1 0px 4px 6px -1px, #00DC46 0px 2px 4px -1px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    top: -50px;
+}
+.counter-col{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.count-line{
+    border-right: 1px solid #BFBEBE
+}
+.counter{
+    text-align: center;
+    padding: 30px 5px 30px 5px;
+}
+p.count-word{
+    font-family: 'Gambetta-SemiboldItalic';
+    text-transform: uppercase;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+p.count-num{
+    color: #003739;
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.About-img{
+    text-align: center;
+}
+.About-img img{
+    max-width: 600px;
+}
+.about-content{
+    padding: 10px 45px 10px 45px;
+}
+.about-content h3{
+    font-size: 42px;
+    color: #003739;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #00DC47;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+p.subcontent{
+    font-family: 'Gambetta-SemiboldItalic';
+    font-size: 26px;
+    line-height: 1.8rem;
+}
+p.subpara{
+    color: #373434;
+    font-family: 'Gambetta-Regular';
+    font-size: 18px;
+    font-weight: 400;
+}
+.aboutus-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.mobile-count{
+    display: none;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 650px){
+    .row.desktop-count{
+        display: none;
+    }
+    .row.mobile-count{
+        display: block;
+    }
+    #count section .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .count-row{
+        width: 200px;
+    }
+    .count-line{
+        border-bottom: 1px solid #BFBEBE;
+        border-right: 0;
+    }
+    .about-content {
+        padding: 10px 15px 10px 15px;
+        text-align: center;
+    }
+    .about-content h3{
+        font-size: 32px;
+    }
+    p.subcontent{
+        text-align: left;
+    }
+    p.subpara{
+        text-align: left;
+    }
+}

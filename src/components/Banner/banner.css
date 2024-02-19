@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#banner section.desktop-view{
+  background-color: #00373A;
+  background-image: url('../../assets/banner-img.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: top right;
+}
+.banner-row{
+    height: 95vh;
+}
+.banner-content{
+    padding: 30px 64px 30px 123px;
+}
+.banner-content h2{
+    font-family: "Roboto", sans-serif;
+    color: #00DC46;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.banner-content h4{
+    font-family: 'Gambetta-SemiboldItalic';
+    color: #fff;
+    font-size: 32px;
+}
+.banner-content p{
+    font-family: 'Gambetta-Regular';
+    color: #F9F7E8;
+    font-size: 18px;
+}
+.banner-content button{
+    background-color: #7459DA;
+    border: 1px solid #7459DA;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 6px 18px;
+}
+.banner-content button:hover{
+    background-color: #765DC1;
+    border: 1px solid #765DC1;
+}
+.banner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.mobileView{
+    background-color: #00373A;
+    background-image: url('../../assets/Hero_Section_BG.png');
+    background-repeat: no-repeat;
+}
+.mobile-banner-content{
+    text-align: center;
+}
+.mobile-banner-content h2{
+  font-family: "Roboto", sans-serif;
+  color: #00DC46;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.mobile-banner-content h4{
+  font-family: 'Gambetta-SemiboldItalic';
+  color: #fff;
+  font-size: 24px;
+}
+.mobile-banner-content p{
+  font-family: 'Gambetta-Regular';
+  color: #F9F7E8;
+  font-size: 16px;
+}
+.mobile-banner-content button{
+  background-color: #7459DA;
+  border: 1px solid #7459DA;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 6px 18px;
+}
+.mobile-banner-content button:hover{
+    background-color: #7459DA;
+    border: 1px solid #7459DA;  
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 650px){
+    .mobile-container{
+        position: relative;
+    }
+    .circle-mobile-image{
+        position: absolute;
+        bottom: -155px;
+       left: -17px;
+    }
+}
